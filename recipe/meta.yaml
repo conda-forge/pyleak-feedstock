@@ -1,5 +1,5 @@
 {% set name = "pyleak" %}
-{% set version = "0.1.15" %}
+{% set version = "0.1.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyleak-{{ version }}.tar.gz
-  sha256: 3abec927e3ab03a8c8bd026b8af59e8d6ac9494a9f1fac89a71f47189a2cdfd1
+  sha256: 739481d5f977da4a7063785273c6bad7904d0828d6d6ecd77a64da73a2eea138
 
 build:
   noarch: python
